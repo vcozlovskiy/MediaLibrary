@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediaLib.MediaLibrary">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAACI=</HashCode>
+      <FileName>MediaLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.Player">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.MediaFile">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgEAAAAAAAAA=</HashCode>
+      <FileName>MediaFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaLib.MusicFile">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="MediaLib.MediaFile" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="0.5" Y="1.062" />
+        <Point X="0.125" Y="1.062" />
+        <Point X="0.125" Y="2.125" />
+        <Point X="1.188" Y="2.125" />
+        <Point X="1.188" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MusicFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.VideoFile">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="MediaLib.MediaFile" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="0.5" Y="1.062" />
+        <Point X="0.125" Y="1.062" />
+        <Point X="0.125" Y="3.377" />
+        <Point X="1.25" Y="3.377" />
+        <Point X="1.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VideoFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.PhotoFile">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="MediaLib.MediaFile" FixedFromPoint="true">
+      <Path>
+        <Point X="0.5" Y="1.062" />
+        <Point X="0.125" Y="1.062" />
+        <Point X="0.125" Y="4.877" />
+        <Point X="1.25" Y="4.877" />
+        <Point X="1.25" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>PhotoFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.PlayList">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAABIAACAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MediaLib.MediaSercher">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MediaSercher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.MediaCollection">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MediaCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaLib.PlayListCollection">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayListCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MediaLib.IPlayble">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>IPlayble.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
