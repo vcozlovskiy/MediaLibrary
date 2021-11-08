@@ -10,12 +10,7 @@ namespace MediaLib
     {
         public PlayList(MediaFile[] mediaFiles)
         {
-            _playList = new MediaFile[mediaFiles.Length];
-
-            for (int i = 0; i < mediaFiles.Length; i++)
-            {
-                _playList[i] = mediaFiles[i];
-            }
+            _playList = mediaFiles.Select(file => file).ToArray();
         }
 
         private MediaFile[] _playList;

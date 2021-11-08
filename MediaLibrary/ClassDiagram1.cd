@@ -3,7 +3,7 @@
   <Class Name="MediaLib.MediaLibrary">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAACI=</HashCode>
+      <HashCode>AAAAAAAIAAEAAAAAACAAAAAAAAAIAAIAAAAAAAAAACA=</HashCode>
       <FileName>MediaLibrary.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -18,10 +18,9 @@
     <Position X="0.5" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgEAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACgEAAAAAAAAA=</HashCode>
       <FileName>MediaFile.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -30,15 +29,15 @@
     <Position X="0.5" Y="2.5" Width="1.5" />
     <InheritanceLine Type="MediaLib.MediaFile" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="0.5" Y="1.062" />
-        <Point X="0.125" Y="1.062" />
-        <Point X="0.125" Y="2.125" />
-        <Point X="1.188" Y="2.125" />
+        <Point X="0.5" Y="1.247" />
+        <Point X="0.125" Y="1.247" />
+        <Point X="0.125" Y="2.26" />
+        <Point X="1.188" Y="2.26" />
         <Point X="1.188" Y="2.5" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>MusicFile.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -46,15 +45,15 @@
     <Position X="0.5" Y="3.75" Width="1.5" />
     <InheritanceLine Type="MediaLib.MediaFile" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="0.5" Y="1.062" />
-        <Point X="0.125" Y="1.062" />
+        <Point X="0.5" Y="1.247" />
+        <Point X="0.125" Y="1.247" />
         <Point X="0.125" Y="3.377" />
         <Point X="1.25" Y="3.377" />
         <Point X="1.25" Y="3.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>VideoFile.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -62,11 +61,10 @@
     <Position X="0.5" Y="5" Width="1.5" />
     <InheritanceLine Type="MediaLib.MediaFile" FixedFromPoint="true">
       <Path>
-        <Point X="0.5" Y="1.062" />
-        <Point X="0.125" Y="1.062" />
-        <Point X="0.125" Y="4.877" />
-        <Point X="1.25" Y="4.877" />
-        <Point X="1.25" Y="5" />
+        <Point X="0.5" Y="1.247" />
+        <Point X="0.125" Y="1.247" />
+        <Point X="0.125" Y="5.616" />
+        <Point X="0.5" Y="5.616" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -92,14 +90,14 @@
   <Class Name="MediaLib.MediaCollection">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAEAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MediaCollection.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MediaLib.PlayListCollection">
-    <Position X="2.5" Y="2.5" Width="1.5" />
+    <Position X="2.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAABA=</HashCode>
       <FileName>PlayListCollection.cs</FileName>
     </TypeIdentifier>
   </Class>

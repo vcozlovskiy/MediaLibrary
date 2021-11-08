@@ -7,7 +7,7 @@ namespace MediaLib
 {
     public class PhotoFile : MediaFile
     {
-        public void Play()
+        public override void Play()
         {
             throw new NotImplementedException();
         }

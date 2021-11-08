@@ -7,16 +7,30 @@ namespace MediaLib
 {
     public class MediaCollection
     {
-        public List<MediaFile> AllMediaFils;
+        public MediaCollection(List<MediaFile> medias)
+        {
+            _allMediaFils = new List<MediaFile>(medias);
+        }
+        
+        public MediaCollection()
+        {
+            _allMediaFils = new List<MediaFile>();
+        }
+
+        private List<MediaFile> _allMediaFils;
+        public List<MediaFile> AllMediaFils
+        {
+            get;
+        }
 
         public void Add(MediaFile file)
         {
-            AllMediaFils.Add(file);
+            _allMediaFils.Add(file);
         }
 
         public void Remove(MediaFile file)
         {
-            AllMediaFils.Remove(file);
+            _allMediaFils.Remove(file);
         }
     }
 }

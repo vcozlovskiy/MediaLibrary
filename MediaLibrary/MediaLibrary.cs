@@ -7,13 +7,30 @@ namespace MediaLib
 {
     public class MediaLibrary
     {
-        public MediaCollection MediaCollection;
-        public PlayListCollection PlayListCollection;
+        private MediaCollection _mediaCollection;
+        private PlayListCollection _playListCollection;
+
+
+        public MediaCollection MediaCollection1
+        {
+            get
+            {
+                return _mediaCollection;
+            }
+        }
+
+        public PlayListCollection PlayListCollection
+        {
+            get
+            {
+                return _playListCollection;
+            }
+        }
 
         public MediaLibrary()
         {
-            PlayListCollection = new PlayListCollection();
-            MediaCollection = new MediaCollection();
+            _playListCollection = new PlayListCollection();
+            _mediaCollection = new MediaCollection();
         }
             
         public void PlayPlayList(PlayList playList)

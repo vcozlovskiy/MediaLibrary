@@ -7,6 +7,9 @@ namespace MediaLib
 {
     public class VideoFile : MediaFile
     {
-
+        public override void Play()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
